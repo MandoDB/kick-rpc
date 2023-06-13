@@ -9,6 +9,7 @@ Steps :
 
 - Go on https://discord.com/developers/applications
 - Create new application
+- Custom the username of the bot for changing the "big" text
 - Go to OAuth2 and copy the "Client ID".
 - Paste the ClientID in the `const clientId = '';`
 - In the "Rich presence" category on discord dev portal, go on Art Assets and upload your image (Just wait few minutes before they appair on the page, you can reload for checking)
