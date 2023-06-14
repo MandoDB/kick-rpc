@@ -1,15 +1,17 @@
-const { clientId, RPC: { details, largeImageKey, smallImageKey, buttons }} = require("./config.json");
+const { clientId, RPC: { details, largeImageKey, largeImageText, smallImageKey, smallImageText, buttons }} = require("./config.json");
 const RPC = new (require('discord-rpc')).Client({ transport: 'ipc'});
 
 async function setActivity() {
     if(!RPC) return;
     RPC.setActivity({
-        details: details,
+        details,
         startTimestamp: Date.now(),
-        largeImageKey: largeImageKey,
-        smallImageKey: smallImageKey,
+        largeImageKey,
+        largeImageText,
+        smallImageKey,
+        smallImageText,
         instance: false,
-        buttons: buttons
+        buttons
     });
 };
 
