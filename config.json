@@ -1,0 +1,20 @@
+{
+    "clientId": "Client ID",
+    "RPC":{
+        "details": "Description",
+        "largeImageKey": "kicklogo",
+        "largeImageText": "Follow me for more :)",
+        "smallImageKey": "kicklogo",
+        "smallImageText": "kick.com/thehelltower",
+        "buttons": [
+            {
+                "label": "Button 1",
+                "url": "Link 1"
+            },
+            {
+                "label": "Button 2",
+                "url": "Link 2"
+            }
+        ]
+    }
+}
