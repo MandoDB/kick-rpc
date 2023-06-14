@@ -1,0 +1,18 @@
+{
+    "clientId": "Client ID",
+    "RPC":{
+        "details": "Description",
+        "smallImageKey": "kicklogo",
+        "largeImageKey": "kicklogo",
+        "buttons": [
+            {
+                "label": "Button 1",
+                "url": "Link 1"
+            },
+            {
+                "label": "Button 2",
+                "url": "Link 2"
+            }
+        ]
+    }
+}
